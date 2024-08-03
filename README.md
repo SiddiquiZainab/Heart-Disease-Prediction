@@ -26,7 +26,8 @@ The following machine learning models are used in this project:
 - K-Nearest Neighbors (KNN)
 
 ## Ensemble Method
-An ensemble method is used to combine the predictions of multiple models to improve accuracy and robustness.
+An ensemble method is used to combine the predictions of multiple models to improve accuracy and robustness. Using the Soft Voting method, the three best-performing ML models are used for making the final prediction. The structure is as follows:
+![image](https://github.com/user-attachments/assets/022cb7d0-7fa9-4c5e-bb2f-7ea63e3a49a1)
 
 ## Results
 The results are summarized below:
@@ -39,7 +40,7 @@ These metrics indicate that the ensemble model outperforms the base models in pr
 The heart disease prediction model has several potential applications in healthcare:
 - Early Diagnosis: Assists healthcare providers in identifying patients at high risk of heart disease, allowing for early intervention.
 - Personalized Treatment Plans: Helps tailor treatment plans based on the predicted risk, improving patient outcomes.
-- Timely Alerts: Provides patients with timely alerts based on their health data, encouraging proactive health management.
+- Timely Alerts: Provide patients with timely alerts based on their health data, encouraging proactive health management.
 - Continuous Monitoring: Enables continuous monitoring of patients with a history of heart disease, ensuring they receive appropriate care.
   
 ##  Contact
